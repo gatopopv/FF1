@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velocidad Máxima - Revista F1</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Montserrat', sans-serif;
+    background:#0a0a0a;
+    color:white;
+}
+header{
+    background:url('https://images.alphacoders.com/132/1322755.jpeg') center/cover no-repeat;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,0.7);
+}
+header h1{
+    font-family:'Orbitron', sans-serif;
+    font-size:4.5em;
+    margin:0;
+    color:#ff1e00;
+    text-shadow:0 0 20px #ff1e00;
+}
+header h2{
+    font-weight:300;
+    margin-top:10px;
+}
+.titulares{
+    margin-top:20px;
+    background:rgba(0,0,0,0.6);
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:1.1em;
+}
+section{
+    padding:60px 10%;
+}
+h2{
+    font-family:'Orbitron', sans-serif;
+    font-size:2em;
+    border-left:6px solid #ff1e00;
+    padding-left:15px;
+}
+.card{
+    background:#141414;
+    padding:25px;
+    margin-top:20px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(255,30,0,0.3);
+}
+.indice ul{
+    list-style:none;
+    padding:0;
+}
+.indice li{
+    padding:10px 0;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.galeria img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(255,30,0,0.6);
+}
+button{
+    background:#ff1e00;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover{
+    background:#ff3b20;
+}
+footer{
+    background:#111;
+    text-align:center;
+    padding:50px 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>VELOCIDAD MÁXIMA</h1>
+    <h2>Edición Especial: Fórmula 1</h2>
+    <div class="titulares">
+        🏎 Temporada actual • 🔥 Batalla por el campeonato • ⚙ Tecnología híbrida • 🏁 Test: ¿Qué piloto eres?
+    </div>
+</header>
+
+<section>
+    <h2>Editorial</h2>
+    <div class="card">
+        <p>La Fórmula 1 representa la máxima expresión del automovilismo. En esta edición exploramos la velocidad, la tecnología y la mente de los pilotos que compiten al límite. Elegimos este tema porque la F1 no es solo deporte, es estrategia, ingeniería y pasión.</p>
+        <p><strong>— Dirección Editorial</strong></p>
+    </div>
+</section>
+
+<section class="indice">
+    <h2>Índice</h2>
+    <div class="card">
+        <ul>
+            <li>Pág. 1 — Editorial</li>
+            <li>Pág. 2 — Artículo de Fondo: Tecnología F1</li>
+            <li>Pág. 4 — Entrevista a un fan del automovilismo</li>
+            <li>Pág. 6 — Reportaje: La estrategia en carrera</li>
+            <li>Pág. 8 — Opinión: ¿El mejor piloto de la era moderna?</li>
+            <li>Pág. 10 — Infografía técnica</li>
+            <li>Pág. 12 — Galería de monoplazas</li>
+            <li>Pág. 14 — Test interactivo</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Artículo de Fondo: Tecnología F1</h2>
+    <div class="card">
+        <p>Los monoplazas actuales combinan motores híbridos V6 turbo con sistemas de recuperación de energía (ERS). Estos sistemas transforman el calor y la energía cinética en potencia extra que puede usarse estratégicamente durante la carrera.</p>
+        <p>La aerodinámica es clave: alerón delantero, fondo plano y difusor trabajan en conjunto para generar carga aerodinámica sin sacrificar velocidad punta. Cada pieza puede marcar diferencias de milésimas de segundo por vuelta.</p>
+        <p>El volante de un piloto de F1 parece el panel de control de una nave espacial. Desde allí se gestionan mapas de motor, diferencial, balance de frenos y comunicación con el equipo.</p>
+        <p>Además, los datos juegan un papel fundamental: cada coche genera millones de datos por carrera que los ingenieros analizan en tiempo real.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Entrevista</h2>
+    <div class="card">
+        <p><strong>Pregunta:</strong> ¿Qué hace tan emocionante la F1?</p>
+        <p><strong>Respuesta:</strong> La combinación entre velocidad extrema y estrategia. Una parada en boxes puede cambiar todo el resultado.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Reportaje: Estrategia en Carrera</h2>
+    <div class="card">
+        <p>La estrategia es tan importante como la velocidad. Elegir el compuesto correcto de neumáticos (blando, medio o duro) puede determinar el resultado final.</p>
+        <p>Las paradas en boxes duran entre 2 y 3 segundos. En ese tiempo, más de 20 mecánicos trabajan perfectamente sincronizados para cambiar las cuatro ruedas.</p>
+        <p>También influyen factores como el clima, los safety cars y las banderas amarillas. Un error estratégico puede costar posiciones clave.</p>
+        <p>En circuitos urbanos, la clasificación es crucial porque adelantar es difícil. En pistas rápidas, la gestión del DRS y la degradación del neumático marcan la diferencia.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Galería de Monoplazas</h2>
+    <div class="galeria">
+        <img src="https://images.alphacoders.com/132/1322755.jpeg">
+        <img src="https://images.alphacoders.com/132/1322760.jpeg">
+        <img src="https://images.alphacoders.com/132/1322763.jpeg">
+    </div>
+</section>
+
+<section>
+    <h2>Test: ¿Qué piloto eres?</h2>
+    <div class="card">
+        <p>1. ¿Prefieres arriesgar en una curva o asegurar puntos?</p>
+        <p>2. ¿Te guías más por instinto o estrategia?</p>
+        <button onclick="alert('Si arriesgas y sigues tu instinto, eres un piloto agresivo. Si priorizas estrategia y puntos, eres un maestro táctico.')">Ver Resultado</button>
+    </div>
+</section>
+
+<section>
+    <h2>Infografía Técnica</h2>
+    <div class="card">
+        <p>🏎 Velocidad máxima aproximada: 350 km/h</p>
+        <p>⚙ Revoluciones por minuto: hasta 15,000 RPM</p>
+        <p>🔥 Aceleración: 0 a 100 km/h en 2.6 segundos</p>
+        <p>🛞 Fuerza G en curvas: hasta 5G</p>
+        <p>📊 Más de 300 sensores en cada monoplaza</p>
+    </div>
+</section>
+
+<section>
+    <h2>Opinión: El Factor Humano</h2>
+    <div class="card">
+        <p>Más allá de la tecnología, el piloto es el elemento decisivo. La concentración, resistencia física y control emocional determinan el rendimiento.</p>
+        <p>Una temporada puede tener más de 20 carreras en distintos continentes, lo que exige disciplina y adaptación constante.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Créditos</h2>
+    <div class="card">
+        <p>Director: Equipo Editorial Deportivo</p>
+        <p>Redacción: Departamento de Deportes</p>
+        <p>Investigación Técnica: Área de Ingeniería</p>
+        <p>Diseño Web: Área Digital</p>
+        <p>Imágenes: Banco visual deportivo</p>
+    </div>
+</section>
+
+<footer>
+    <p>"La velocidad no se mide en kilómetros, se mide en valentía."</p>
+    <p>Publicidad: Próxima edición — MotoGP Especial</p>
+</footer>
+
+</body>
+</html>
